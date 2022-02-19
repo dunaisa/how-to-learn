@@ -11,11 +11,10 @@
   
 }
 .kaufman-title_theme_dark {
-  font-size: 60px; 
-  line-height: 1.15;
   font-size: 60px;
+  line-height: 1.15;
   font-weight: 600; 
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
   z-index: 3;
 }
 .kaufman-subtitle_theme_dark {

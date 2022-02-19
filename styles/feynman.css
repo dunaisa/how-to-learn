@@ -28,9 +28,9 @@
 
 .feynman__link {
   display: block;
-  position: absolute;  
+  position: absolute;
   right: 48px;
-  top: 50%;  
+  top: 50%;
   transform: translate(0, -50%);
   line-height: 51px;
   font-size: 36px;
