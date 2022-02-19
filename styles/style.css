@@ -9,24 +9,8 @@
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
-p {
+p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
-
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента 
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-*/
-/* и элемента с модификатором вида ключ-значение 
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-*/
 
