@@ -138,7 +138,6 @@
 }
 
 .section-title {
-  margin-bottom: 20px;
   font-size: 60px;
   line-height: 1.15;
   font-weight: 600;
@@ -232,7 +231,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #000;
+  background-color: #1f1f1f;
   padding: 90px 0;
   position: relative;
   overflow: hidden;
@@ -259,10 +258,10 @@
 }
 
 .table__cell_theme_dark {
-    width: 200px;
-    padding-top: 80px;
-    display: flex;
-    flex-direction: column;
+  width: 200px;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
 }
 
 .kaufman__triangle {
@@ -282,10 +281,11 @@
 /* Секция footer */
 
 .footer {
-  min-height: 350px;
-  background-color: #000;
+  background-color: #1f1f1f;
   color: white;
   padding: 60px 0 40px 0;
+  min-height: 350px;
+  box-sizing: border-box;
 }
 
 .logo_place_footer {
@@ -300,38 +300,35 @@
 }
 
 .footer__columns {
+  min-height: 250px;
   width: 90%;
-  min-height: 350px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
-.footer__column {
+.footer__column_content_copyright {
   display: flex;
+  flex-basis: 711px;
+  justify-content: space-between;
   flex-direction: column;
 }
 
-.footer__column_content_copyright {
-  flex-basis: 711px;
-  justify-content: space-between;
-}
-
-.column-heading {
+.footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
   margin: 0 0 20px;
 }
 
-.column-links {
+.footer__column-links {
   display: flex;
   flex-direction: column;
   margin: 0 0 16px 0;
   padding: 0;
 }
 
-.column-link {
+.footer__column-link {
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
@@ -341,7 +338,7 @@
   padding: 0;
 }
 
-.social-icon {
+.footer__social-icon {
   margin-right: 10px;
   height: 16px;
   width: 16px;
