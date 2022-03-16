@@ -1,0 +1,7 @@
+.video__frames {
+  margin-top: 50px;
+  width: 1050px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -35px;
+}
