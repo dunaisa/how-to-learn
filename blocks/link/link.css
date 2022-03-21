@@ -35,15 +35,3 @@
 .khan__buy-link:hover {
   opacity: .7;
 }
-
-.resources__link {
-  text-decoration: none;
-  transition: .8s;
-  display: block;
-  height: 38px;
-  flex-grow: 1;
-}
-
-.resources__link:hover {
-  opacity: .7;
-}
